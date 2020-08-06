@@ -58,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
+        //broken here
+        /*
         Call<User> call1 = service.getUser("2");
         call1.enqueue(new Callback<User>() {
             @Override
@@ -72,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-        
+        */
 
     }
 }
